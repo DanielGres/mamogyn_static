@@ -1,0 +1,36 @@
+/* General Resets */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Inter', sans-serif; line-height: 1.6; color: #333; }
+.container { width: 90%; max-width: 1100px; margin: auto; overflow: hidden; }
+.section { padding: 4rem 0; }
+.bg-light { background: #f4f7f6; }
+.text-center { text-align: center; }
+
+/* Header & Nav */
+header { background: #fff; border-bottom: 2px solid #eef2f3; padding: 1rem 0; sticky: top; }
+nav { display: flex; justify-content: space-between; align-items: center; }
+.logo { display: flex; align-items: center; font-weight: 700; font-size: 1.5rem; color: #0056b3; }
+.logo img { height: 40px; margin-right: 10px; }
+.nav-links { display: flex; list-style: none; align-items: center; }
+.nav-links li { margin-left: 20px; }
+.nav-links a { text-decoration: none; color: #333; font-weight: 600; }
+.btn-cta { background: #0056b3; color: #fff !important; padding: 10px 20px; border-radius: 5px; }
+
+/* Hero */
+.hero { background: #0056b3; color: #fff; padding: 100px 0; text-align: center; }
+.hero h1 { font-size: 2.5rem; margin-bottom: 1rem; }
+
+/* Doctor Cards */
+.doctor-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; margin-top: 2rem; }
+.doctor-card { background: #fff; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+.doctor-card img { width: 100%; height: 300px; object-fit: cover; }
+.doctor-info { padding: 1.5rem; }
+.specialty { color: #0056b3; font-weight: bold; font-size: 0.9rem; text-transform: uppercase; }
+
+/* Contact & Footer */
+.contact-wrapper { display: flex; flex-wrap: wrap; gap: 2rem; }
+.contact-info { flex: 1; min-width: 300px; }
+footer { background: #2c3e50; color: #ecf0f1; padding: 3rem 0; margin-top: 3rem; }
+.footer-content { display: flex; justify-content: space-between; flex-wrap: wrap; }
+.footer-links ul { list-style: none; }
+.footer-links a { color: #bdc3c7; text-decoration: none; }
